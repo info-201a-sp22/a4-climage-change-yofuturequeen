@@ -1,6 +1,6 @@
-library(plotly)
 library(bslib)
 library(shiny)
+library(plotly)
 
 climate_df <- read.csv("owid-co2-data.csv")
 
