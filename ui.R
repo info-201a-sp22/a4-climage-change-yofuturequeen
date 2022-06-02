@@ -1,14 +1,8 @@
-#
-# This is the user-interface definition of a Shiny web application. You can
-# run the application by clicking 'Run App' above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    http://shiny.rstudio.com/
-#
 library(plotly)
 library(bslib)
 library(shiny)
+
+climate_df <- read.csv("owid-co2-data.csv")
 
 shiny_theme <- bs_theme(bg = "black",
                         fg = "white",

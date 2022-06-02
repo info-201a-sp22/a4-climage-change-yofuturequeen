@@ -5,9 +5,10 @@ account: yofuturequeen
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 6416865
-bundleId: 5970494
+bundleId: 5970539
 url: https://yofuturequeen.shinyapps.io/a4-climage-change-yofuturequeen/
-when: 1654150100.38577
-lastSyncTime: 1654150100.38577
+when: 1654151332.14424
+lastSyncTime: 1654151332.14424
 asMultiple: FALSE
 asStatic: FALSE
+ignoredFiles: climate

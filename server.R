@@ -5,7 +5,7 @@ library(dplyr)
 
 climate_df <- read.csv("owid-co2-data.csv")
 
-shinyServer(function(input, output) {
+server <- (function(input, output) {
   
   output$climate_plot <- renderPlotly({
     validate(
